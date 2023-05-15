@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(2,0,36);
+  background: linear-gradient(342deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  font-family: sans-serif;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  text-align: -webkit-center;
+}
+
+.card-login {
+  border: 1px solid black;
+  border-radius: 4px;
+  width: fit-content;
+  margin-top: 10%;
+  padding: 24px;
+  background-color: white;
+  box-shadow: 0px 10px 15px -3px rgba(255,255,255,0.30);
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.botoes-form {
+  margin: 24px 0;
+}
+
+button {
+  padding: 8px 24px;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+  min-width: 115px;
+  min-height: 32px;
+}
+
+#btn-entrar {
+  background-color: lightblue;
+  border: none;
+  color: white;
+}
+
+#btn-criar-conta {
+  background-color: white;
+  border: 1px solid grey;
+}
+
+#btn-cadastrar {
+  background-color: lightgreen;
+  border: none;
+  color: white;
+}
+
+a {
+  color: unset;
+  text-decoration: unset;
+  display: contents;
+}
+
+#esqueci-senha {
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid lightgray;
+  outline: none !important;
+}

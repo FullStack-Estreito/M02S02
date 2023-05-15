@@ -1,0 +1,38 @@
+main {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 1fr 2fr 1fr;
+  grid-template-areas: 
+    "header header header header"
+    "article article article aside"
+    "footer footer footer footer"
+  ;
+}
+
+header {
+  background-color: lightcoral;
+	grid-area: header;
+}
+
+section.logo {
+  background-color: lightgreen;
+}
+
+nav {
+  background-color: lightseagreen;
+}
+
+article {
+  background-color: lightgray;
+	grid-area: article;
+}
+
+aside {
+  background-color: lightblue;
+	grid-area: aside;
+}
+
+footer {
+  background-color: lightyellow;
+	grid-area: footer;
+}

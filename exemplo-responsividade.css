@@ -1,0 +1,31 @@
+.card {
+  width: 100%;
+  min-height: 200px;
+  border: 1px solid black;
+} 
+
+/* Estilos aplicado A PARTIR de 768px */
+@media screen and (min-width: 768px) {
+  .card {
+    width: 50%;
+    min-height: 150px;
+    background-color: rgb(182, 185, 201);
+  }
+  
+  p {
+    color: rgb(22, 25, 62);
+  }
+}
+
+/* Estilos aplicados A PARTIR de 1024px */
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 25%;
+    height: unset;
+    background-color: rgb(0, 2, 24);
+  }
+  
+  p {
+    color: rgb(240, 240, 247);
+  }
+}

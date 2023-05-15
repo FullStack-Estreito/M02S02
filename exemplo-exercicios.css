@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header > .logo > img {
+  width: 75px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  padding-right: 8px;
+}
+
+header nav a + a {
+  margin-left: 16px;
+}
+
+#sobre {
+  display: flex;
+}
+
+#sobre .parte1 {
+  width: 50%;
+  background-color: lightcoral;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+#sobre .parte2 {
+  width: 50%;
+  background-color: lightblue;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.parte1 img {
+  width: 20%;
+}
+
+@media screen and (max-width: 768px) {
+  header nav {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  header nav a + a {
+    margin-left: unset;
+  }
+}
+
+/* Auxilio para visualização das seções */
+#oportunidades , #metodologia , #ementa ,
+#projetos , #depoimentos , #duvidas , footer {
+  min-width: 100%;
+  min-height: 250px;
+}
+
+#oportunidades {
+  background-color: lightcyan;
+}
+
+#metodologia {
+  background-color: lightgoldenrodyellow;
+}
+
+#ementa {
+  background-color: lightcyan;
+}
+
+#projetos {
+  background-color: lightgray;
+}
+
+#depoimentos {
+  background-color: lightgreen;
+}
+
+#duvidas {
+  background-color: lightpink;
+}
+
+footer {
+  background-color: lightsalmon;
+}
